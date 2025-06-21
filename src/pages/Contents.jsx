@@ -12,6 +12,7 @@ import CertificatesDetails from "../components/modalContents/CertificatesDetails
 import PayItForwardDetails from "../components/modalContents/PayItForwardDetails";
 import ConfNetDetails from "../components/modalContents/ConfNetDetails";
 import AboutMeDetails from "../components/modalContents/AboutMeDetails";
+import MaintenancePage from "../pages/Maintenance"
 
 const Contents = ({ heroRef }) => {
   const [modalContent, setModalContent] = useState(null);
@@ -59,7 +60,8 @@ const Contents = ({ heroRef }) => {
     >
       <div
         className="  col-span-4 row-span-4 bg-white rounded-2xl shadow relative group overflow-hidden"
-        onClick={() => openModal(ProjectDetails)}
+        // onClick={() => openModal(ProjectDetails)}
+        onClick={() => openModal(MaintenancePage)}
       >
         <Projects />
         <div className="absolute inset-0 bg-black bg-opacity-40 opacity-0 cursor-pointer group-hover:opacity-90 flex items-center justify-center transition-opacity duration-300">
