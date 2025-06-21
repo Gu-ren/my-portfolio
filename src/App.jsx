@@ -15,7 +15,7 @@ function App() {
   return (
     <div>
       <div ref={heroRef}>
-        <Hero contentsRef={contentsRef} />
+        <Hero  contentsRef={contentsRef} />
       </div>
       <div ref={contentsRef}>
         <Contents heroRef={heroRef} />

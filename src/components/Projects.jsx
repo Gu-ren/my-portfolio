@@ -3,14 +3,12 @@ import ProjectsBg from "../assets/projects.png";
 const Projects = () => {
   return (
     <div
-      className="w-full h-full bg-cover bg-center relative rounded-2xl p-6"
-      style={{
-        backgroundImage: `url(${ProjectsBg})`,
-        backgroundPosition: "40% 180%",
-        backgroundSize: "60%",
-        backgroundRepeat: "no-repeat",
-      }}
-    >
+    className="w-full min-h-[450px] bg-no-repeat bg-[length:60%] bg-bottom rounded-2xl p-6"
+    style={{
+      backgroundImage: `url(${ProjectsBg})`,
+    }}
+  >
+  
       <div className="text-[#383535] text-[50px] font-bold">Projects</div>
       <p className="mt-4 text-sm text-gray-500">
         A curated selection of the projects I've worked on, showcasing my skills

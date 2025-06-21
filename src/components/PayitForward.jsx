@@ -15,7 +15,7 @@ const PayitForward = () => {
       <div className="text-[white text-[25px] font-bold text-white">
         Pay It Forward
       </div>
-      <p className="mt-4 text-sm text-gray-300">
+      <p className="mt-4 text-xs text-gray-300">
         I believe that success is more meaningful when shared. Through
         workshops, training, and mentorship, I aim to empower the next
         generation of developers and tech professionals by sharing the knowledge

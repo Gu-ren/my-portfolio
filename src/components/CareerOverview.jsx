@@ -56,7 +56,7 @@ const CareerOverview = () => {
           <h3 className="font-semibold text-gray-800">{item.title}</h3>
         </div>
         {item.description && (
-          <p className="mt-1 text-sm text-gray-500 whitespace-pre-line">{item.description}</p>
+          <p className="mt-1 text-xs text-gray-500 whitespace-pre-line">{item.description}</p>
         )}
       </div>
     </div>

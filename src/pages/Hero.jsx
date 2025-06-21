@@ -31,10 +31,10 @@ const Hero = ({ contentsRef }) => {
 
   return (
     <div
-    ref={heroSectionRef}
-      className="h-screen w-screen bg-cover bg-center relative "
-      style={{ backgroundImage: `url(${heroBackground})` }}
-    >
+  ref={heroSectionRef}
+  className="h-screen w-screen bg-cover bg-center relative z-10 overflow-hidden"
+  style={{ backgroundImage: `url(${heroBackground})` }}
+>
       <div className=" flex flex-col  justify-center text-white py-8 px-16 ">
         <div className="flex justify-between w-full z-50">
           <a
@@ -74,7 +74,7 @@ const Hero = ({ contentsRef }) => {
           </svg>
         </div>
         <div
-          className="absolute inset-0 flex items-center justify-center z-10"
+          className="absolute inset-0 flex items-center justify-center "
           data-aos="fade-up"
         >
           <img src={profile} alt="Profile" className="mt-33 shadow-lg" />

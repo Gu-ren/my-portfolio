@@ -55,7 +55,7 @@ const Contents = ({ heroRef }) => {
   return (
     <div
     ref={contentsSectionRef} 
-      className=" h-screen bg-[#F6F7F8] grid grid-cols-9 grid-rows-8 gap-4 p-4"
+      className=" h-screen bg-[#F6F7F8] grid grid-cols-9 grid-rows-8 gap-4 p-4 z-30"
       data-aos="zoom-in-up"
     >
       <div
