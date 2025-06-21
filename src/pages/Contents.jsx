@@ -72,7 +72,8 @@ const Contents = ({ heroRef }) => {
       </div>
       <div
         className="relative col-span-2 row-span-2 col-start-5 bg-white rounded-2xl shadow group overflow-hidden"
-        onClick={() => openModal(CertificatesDetails)}
+        // onClick={() => openModal(CertificatesDetails)}
+        onClick={() => openModal(MaintenancePage)}
       >
         <Certs />
         <div className="absolute inset-0 bg-black bg-opacity-40 opacity-0 cursor-pointer group-hover:opacity-90 flex items-center justify-center transition-opacity duration-300">
@@ -83,7 +84,8 @@ const Contents = ({ heroRef }) => {
       </div>
       <div
         className="col-span-3 row-span-2 col-start-7 bg-white rounded-2xl shadow relative group overflow-hidden"
-        onClick={() => openModal(PayItForwardDetails)}
+        // onClick={() => openModal(PayItForwardDetails)}
+        onClick={() => openModal(MaintenancePage)}
       >
         <PayitForward />
         <div className="absolute inset-0 bg-black bg-opacity-40 opacity-0 cursor-pointer group-hover:opacity-90 flex items-center justify-center transition-opacity duration-300">
@@ -97,7 +99,8 @@ const Contents = ({ heroRef }) => {
       </div>
       <div
         className="col-span-2 row-span-3 col-start-8 row-start-3 bg-white rounded-2xl shadow relative group overflow-hidden"
-        onClick={() => openModal(AboutMeDetails)}
+        // onClick={() => openModal(AboutMeDetails)}
+        onClick={() => openModal(MaintenancePage)}
       >
         <AboutMe />
         <div className="absolute inset-0 bg-black bg-opacity-40 opacity-0 cursor-pointer group-hover:opacity-90 flex items-center justify-center transition-opacity duration-300">
@@ -114,7 +117,8 @@ const Contents = ({ heroRef }) => {
       </div>
       <div
         className="col-span-3 row-span-4 col-start-1 row-start-5 bg-white rounded-2xl shadow relative group overflow-hidden"
-        onClick={() => openModal(ConfNetDetails)}
+        // onClick={() => openModal(ConfNetDetails)}
+        onClick={() => openModal(MaintenancePage)}
       >
         <ConfNet />
         <div className="absolute inset-0 bg-black bg-opacity-40 opacity-0 cursor-pointer group-hover:opacity-90 flex items-center justify-center transition-opacity duration-300">

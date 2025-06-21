@@ -2,11 +2,12 @@ import React from "react";
 
 const Maintenance = () => {
   return (
-    <div className="flex flex-col items-left justify-center ">
+    <div className="flex flex-col items-center  ">
+        <div className=" text-[200px]">🚧</div>
       <h1 className="text-[#383535] text-[50px] font-bold mb-4">
-      Currently in Development
+      Currently in Development!
       </h1>
-      <p className="text-lg text-[#555] max-w-xl">
+      <p className="text-sm text-[#555] max-w-xl">
         Hey there! This part of the site is still in the works. I'm adding more
         content soon, so stay tuned! In the meantime, feel free to check out the
         other sections of my portfolio — there's already some cool stuff to
