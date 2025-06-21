@@ -1,6 +1,6 @@
 import React from "react";
 import certs from "../assets/outsideWorkBg.png";
-import OW from "../assets/ow.png";
+import OW from "../assets/OW.png";
 
 const OutsideWork = () => {
   return (
